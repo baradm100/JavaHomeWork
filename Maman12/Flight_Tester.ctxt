@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Flight_Tester
+comment0.text=\r\n\ Flight_Tester\r\n\ Tests\ Flight\ class.\r\n\r\n\ @author\ Dror\r\n\ @version\ 20441/Maman_12/2018A\r\n
+comment1.params=
+comment1.target=void\ testFlight_ctor()
+comment2.params=
+comment2.target=void\ testFlight_equals()
+comment3.params=
+comment3.target=void\ testFlight_SetGetOrigin()
+comment4.params=
+comment4.target=void\ testFlight_flightDuration()
+comment5.params=
+comment5.target=void\ testDate2()
+numComments=6
