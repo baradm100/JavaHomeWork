@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Airport
+comment1.params=airport
+comment1.target=Airport(java.lang.String)
+comment10.params=
+comment10.target=Flight\ longestFlight()
+comment11.params=
+comment11.target=java.lang.String\ toString()
+comment2.params=addFlight
+comment2.target=boolean\ addFlight(Flight)
+comment3.params=removeFlight
+comment3.target=boolean\ removeFlight(Flight)
+comment4.params=place
+comment4.target=Time1\ firstFlightFromDestination(java.lang.String)
+comment5.params=
+comment5.target=int\ howManyFullFlights()
+comment6.params=city1\ city2
+comment6.target=int\ howManyFlightsBetween(java.lang.String,\ java.lang.String)
+comment7.params=city
+comment7.target=int\ countFlightsFrom(java.lang.String)
+comment8.params=
+comment8.target=java.lang.String\ mostPopularDestination()
+comment9.params=
+comment9.target=Flight\ mostExpensiveTicket()
+numComments=12
