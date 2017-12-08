@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Tests
+comment0.text=\r\n\ The\ test\ class\ Tests.\r\n\r\n\ @author\ \ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=Tests()
+comment1.text=\r\n\ Default\ constructor\ for\ test\ class\ Tests\r\n
+comment10.params=
+comment10.target=void\ test_mostExpensiveTicket()
+comment11.params=
+comment11.target=void\ test_longestFlight()
+comment2.params=
+comment2.target=Airport\ getFullAirport()
+comment3.params=
+comment3.target=void\ test_addFlight()
+comment4.params=
+comment4.target=void\ test_removeFlight()
+comment5.params=
+comment5.target=void\ test_firstFlightFromDestination()
+comment6.params=
+comment6.target=void\ test_toString()
+comment7.params=
+comment7.target=void\ test_howManyFullFlights()
+comment8.params=
+comment8.target=void\ test_howManyFlightsBetween()
+comment9.params=
+comment9.target=void\ test_mostPopularDestination()
+numComments=12
