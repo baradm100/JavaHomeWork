@@ -12,4 +12,14 @@ public class BarTester
         air.removeFlight(f1);
         System.out.println(air.toString());
     }
+    
+    public int myF(char x, int y)
+    {
+        return 1;
+    }
+    
+    public double myF(char y, int x)
+    {
+        return 1;
+    }
 }

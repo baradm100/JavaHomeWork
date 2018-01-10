@@ -2,4 +2,8 @@
 comment0.target=BarTester
 comment1.params=args
 comment1.target=void\ main(java.lang.String[])
-numComments=2
+comment2.params=x\ y
+comment2.target=int\ myF(char,\ int)
+comment3.params=
+comment3.target=int\ myF()
+numComments=4
