@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Ex14
+comment1.params=a\ x
+comment1.target=int\ count(int[],\ int)
+comment1.text=\r\n\ Returns\ the\ number\ of\ occurrence\ of\ x\ in\ a\ (sorted\ array)\r\n\ \r\n\ Time\ complexity\:\ O(log(n))\:\r\n\ \ binarySearch\ \=\ log(n)\r\n\ \ 2binarySearch\ \=\ 2log(n)\r\n\ \ O(2log(n))\ \=\ O(log(n))\r\n\ Space\ complexity\:\ O(1)\r\n\ \r\n\ @param\ \ \ a\ \ \ Array\ of\ numbers\ (sorted)\r\n\ @param\ \ \ x\ \ \ The\ number\ we\ need\ to\ find\r\n\ @return\ \ Number\ of\ occurrence\ of\ x\ in\ a\r\n
+comment2.params=a\ x\ bottom\ goUp
+comment2.target=int\ binarySearch(int[],\ int,\ int,\ boolean)
+comment2.text=\r\n\ A\ Binary\ search\ or\ a\ sorted\ array\r\n\ Time\ complexity\:\ O(log(n))\r\n\ Space\ complexity\:\ O(1)\r\n\ \r\n\ @param\ \ \ a\ \ \ Array\ of\ numbers\ (sorted)\r\n\ @param\ \ \ x\ \ \ The\ number\ we\ need\ to\ find\r\n\ @param\ \ \ bottom\ \ The\ bottom\ index\ to\ start\ with\r\n\ @param\ \ \ goUp\ \ \ \ What\ type\ of\ search\ is\ needed,\ for\ the\ first\ or\ the\ last\ occurrence\r\n\ @return\ \ The\ index\ of\ the\ first/last\ occurrence,\ -1\ if\ not\ found\r\n
+comment3.params=s
+comment3.target=int\ alternating(java.lang.String)
+comment3.text=\r\n\ Returns\ the\ lest\ number\ of\ swaps\ that\ need\ to\ be\ made\ to\ make\ the\ string\ alternating\ between\ 0\ and\ 1\r\n\ Time\ complexity\:\ O(n)\:\r\n\ \ for\ loop\ \=\ n/2\r\n\ \ O(n/2)\ \=\ O(n)\r\n\ Space\ complexity\:\ O(1)\r\n\ \r\n\ @param\ \ \ s\ \ \ The\ string\ we\ checking\ (size\ is\ always\ 2n)\r\n\ @return\ \ The\ lest\ number\ of\ swaps\ that\ need\ to\ be\ made\ to\ make\ the\ string\ alternating\ between\ 0\ and\ 1\r\n
+comment4.params=a
+comment4.target=boolean\ isWay(int[])
+comment4.text=\r\n\ Find\ if\ you\ can\ travel\ the\ array\ based\ on\ the\ values\ in\ the\ cells\ without\ visiting\ the\ same\ place\ twice\ or\ getting\ out\ of\ the\ array\ bounds\r\n\ Time\ complexity\:\ O(n)\r\n\ \ O(n)\ \=\ Running\ on\ each\ cell\ only\ once\ because\ after\ visiting\ cell\ setting\ as\ 0\r\n\ Space\ complexity\:\ O(n)\r\n\ \r\n\ @param\ \ \ a\ \ \ The\ array\r\n\ @return\ \ If\ you\ can\ travel\ in\ the\ array\ based\ on\ the\ values\ in\ the\ cells\r\n
+comment5.params=a\ currentI
+comment5.target=boolean\ isWay(int[],\ int)
+comment5.text=\r\n\ Find\ if\ you\ can\ travel\ the\ array\ based\ on\ the\ values\ in\ the\ cells\ without\ visiting\ the\ same\ place\ twice\ or\ getting\ out\ of\ the\ array\ bounds\r\n\ Time\ complexity\:\ O(n)\r\n\ \ O(n)\ \=\ Running\ on\ each\ cell\ only\ once\ because\ after\ visiting\ cell\ setting\ as\ 0\r\n\ Space\ complexity\:\ O(n)\r\n\ \r\n\ @param\ \ \ a\ \ \ The\ array\r\n\ @param\ \ \ currentI\ \ \ \ The\ current\ cell's\ index\r\n\ @return\ \ If\ you\ can\ travel\ in\ the\ array\ based\ on\ the\ values\ in\ the\ cells\r\n
+comment6.params=mat
+comment6.target=void\ printPath(int[][])
+comment6.text=\r\n\ Print\ the\ path\ to\ the\ nearest\ hill\ (a\ cell\ that\ the\ value\ is\ bigger\ than\ the\ neighbor\u0000\ cells)\ by\ "climbing"\ (going\ to\ cell\ only\ if\ the\ cell\ is\ bigger\ than\ the\ current\ one).\r\n\ \r\n\ Time\ complexity\:\ O(n)\r\n\ \ O(n)\ \=\ Running\ on\ each\ cell\ only\ once\ because\ moving\ to\ different\ cell\ only\ if\ bigger\ the\ the\ current\ one.\r\n\ Space\ complexity\:\ O(n)\r\n\ @param\ \ \ mat\ The\ matrix\r\n
+comment7.params=mat\ i\ j
+comment7.target=java.lang.String\ printPath(int[][],\ int,\ int)
+comment7.text=\r\n\ Print\ the\ path\ to\ the\ nearest\ hill\ (a\ cell\ that\ the\ value\ is\ bigger\ than\ the\ neighbor\u0000\ cells)\ by\ "climbing"\ (going\ to\ cell\ only\ if\ the\ cell\ is\ bigger\ than\ the\ current\ one).\r\n\ \r\n\ Time\ complexity\:\ O(n)\r\n\ \ O(n)\ \=\ Running\ on\ each\ cell\ only\ once\ because\ moving\ to\ different\ cell\ only\ if\ bigger\ the\ the\ current\ one.\r\n\ Space\ complexity\:\ O(n)\r\n\ @param\ \ \ mat\ The\ matrix\r\n
+numComments=8
