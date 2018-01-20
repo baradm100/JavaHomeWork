@@ -14,7 +14,7 @@ comment12.target=boolean\ equals(StringList)
 comment12.text=\r\n\ Check\ if\ the\ list\ and\ str\ are\ equal\r\n\ \r\n\ Time\ complexity\:\ O(n)\r\n\ Space\ complexity\:\ O(1)\r\n\ \r\n\ @param\ \ \ str\ The\ list\ to\ check\r\n\ @return\ \ If\ the\ StringList\ are\ equal\r\n
 comment13.params=str
 comment13.target=int\ compareTo(StringList)
-comment13.text=\r\n\ Comparing\ the\ StringLists,\ if\ the\ current\ list\ (this)\ is\ smaller\ then\ return\ -1,\ if\ current\ list\ (this)\ is\ bigger\ then\ return\ 1,\ if\ equals\ then\ return\ 0\r\n\ \r\n\ Time\ complexity\:\ O(n)\r\n\ Space\ complexity\:\ O(1)\r\n\ \r\n\ @param\ \ \ str\ The\ list\ to\ compare\ to\r\n\ @return\ \ if\ the\ current\ list\ (this)\ is\ smaller\ then\ return\ -1,\ if\ current\ list\ (this)\ is\ bigger\ then\ return\ 1,\ if\ equals\ then\ return\ 0\r\n
+comment13.text=\r\n\ Comparing\ the\ StringLists,\ if\ the\ current\ list\ (this)\ is\ smaller\ then\ return\ -1,\ if\ current\ list\ (this)\ is\ bigger\ then\ return\ 1,\ if\ equals\ then\ return\ 0\r\n\ this\ \=\=\ str\ ->\ 0\r\n\ this\ >\ atr\ ->\ +1\r\n\ this\ <\ str\ ->\ -1\r\n\ Time\ complexity\:\ O(n)\r\n\ Space\ complexity\:\ O(1)\r\n\ \r\n\ @param\ \ \ str\ The\ list\ to\ compare\ to\r\n\ @return\ \ if\ the\ current\ list\ (this)\ is\ smaller\ then\ return\ -1,\ if\ current\ list\ (this)\ is\ bigger\ then\ return\ 1,\ if\ equals\ then\ return\ 0\r\n
 comment14.params=i
 comment14.target=StringList\ substring(int)
 comment14.text=\r\n\ Returns\ new\ list\ that\ starts\ from\ i\r\n\ \r\n\ Time\ complexity\:\ O(n)\r\n\ Space\ complexity\:\ O(n)\r\n\ \r\n\ @param\ \ \ i\ \ \ The\ place\ to\ start\ from\r\n\ @return\ \ New\ list\ that\ starts\ from\ i\r\n

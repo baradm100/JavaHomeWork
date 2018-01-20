@@ -49,8 +49,7 @@ public class StringList
             _head = new CharNode(node.getData(),node.getValue(),null);
             for(CharNode ptr= node.getNext(),last=_head;ptr!= null; ptr = ptr.getNext())
             {
-                last.setNext(new CharNode(ptr.getData(),ptr.getValue(),
-                ptr.getNext()));
+                last.setNext(new CharNode(ptr.getData(),ptr.getValue(), ptr.getNext()));
                 last = last.getNext();
             }
         }
@@ -72,8 +71,7 @@ public class StringList
             _head = new CharNode(node.getData(),node.getValue(),null);
             for(CharNode ptr= node.getNext(),last=_head;ptr!= null; ptr = ptr.getNext())
             {
-                last.setNext(new CharNode(ptr.getData(),ptr.getValue(),
-                ptr.getNext()));
+                last.setNext(new CharNode(ptr.getData(),ptr.getValue(),ptr.getNext()));
                 last = last.getNext();
             }
         }
@@ -154,10 +152,13 @@ public class StringList
         StringList strCopy = new StringList(str);
         CharNode newListHead = newList.getHead();
         
-        while(newListHead.getNext() != null)
+        while(newListHead != null && newListHead.getNext() != null)
             newListHead = newListHead.getNext();
         
-        newListHead.setNext(strCopy.getHead());
+        if(strCopy == null)
+            newListHead.setNext(null);
+        else
+            newListHead.setNext(strCopy.getHead());
         
         return newList;
     }
@@ -224,12 +225,17 @@ public class StringList
      * @return  If the StringList are equal
      */
     public boolean equals (StringList str) {
+        if(str == null)
+            return false;
+            
         return equals(_head, str.getHead());
     }
     
     /**
      * Comparing the StringLists, if the current list (this) is smaller then return -1, if current list (this) is bigger then return 1, if equals then return 0
-     * 
+     * this == str -> 0
+     * this > atr -> +1
+     * this < str -> -1
      * Time complexity: O(n)
      * Space complexity: O(1)
      * 
@@ -296,6 +302,10 @@ public class StringList
                 return null;
         }
         
+        if(j == i) {
+            return new StringList();
+        }
+        
         CharNode lastNode = node;
         for(int k = i + 1; k < j; k++) {
             lastNode = lastNode.getNext();
@@ -339,7 +349,9 @@ public class StringList
     private boolean equals (CharNode node1, CharNode node2) {
         if(node1 == null && node2 == null) // If we checked the all node lists
             return true;
-        else if((node1 != null && node2 == null) || node1 == null && node2 != null) // One of the nodes is null and the other isn't
+        else if(node1 != null && node2 == null) // node1 isn't null but node2 is null (end of list2)
+            return false;
+        else if(node1 == null && node2 != null) // node1 is null but node2 isn't null (end of list)
             return false;
         else if(node1.getData() != node2.getData()) // if they are diffrent
             return false;
