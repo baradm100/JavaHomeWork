@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=TestStringList
+comment1.params=
+comment1.target=void\ tests()
+comment10.params=sl1\ sl2\ expected
+comment10.target=boolean\ testEquals(StringList,\ StringList,\ boolean)
+comment11.params=sl1\ sl2
+comment11.target=boolean\ testCompareTo(StringList,\ StringList)
+comment12.params=
+comment12.target=void\ printSuccess()
+comment2.params=sl
+comment2.target=void\ testCharAt(StringList)
+comment3.params=sl
+comment3.target=void\ testConcat(StringList)
+comment4.params=sl\ chr\ expected
+comment4.target=void\ testIndexOf1(StringList,\ char,\ int)
+comment5.params=sl\ chr\ from\ expected
+comment5.target=void\ testIndexOf2(StringList,\ char,\ int,\ int)
+comment6.params=sl\ from\ expected
+comment6.target=boolean\ testSubstr1(StringList,\ int,\ java.lang.String)
+comment7.params=sl\ from\ to\ expected
+comment7.target=boolean\ testSubstr2(StringList,\ int,\ int,\ java.lang.String)
+comment8.params=sl\ expected
+comment8.target=boolean\ testLength(StringList,\ int)
+comment9.params=sl\ expected
+comment9.target=boolean\ testToString(StringList,\ java.lang.String)
+numComments=13
